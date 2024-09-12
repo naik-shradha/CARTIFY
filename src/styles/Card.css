@@ -1,0 +1,42 @@
+section {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    /* background-color: black; */
+}
+
+.cards{
+    width: 250px;
+    padding: 20px;
+}
+
+.cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+/* .image_box{
+    padding-right: 40px;
+} */
+
+.image_box img{
+    width: 150px;
+    height: 200px;
+}
+
+.details button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #403d39;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details button:hover{
+    background-color: #000;
+}
